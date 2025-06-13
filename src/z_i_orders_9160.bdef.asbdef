@@ -21,10 +21,10 @@ etag master last_changed_at
   delete;
 
   // Validations
-    validation validateCountry on save { field country; }
+   validation validateCountry on save { field country; }
 
   // Actions
-    action (features : instance) cancelOrder result[1] $self;
+  action (features : instance) cancelOrder result[1] $self;
 
   association _Item { create; }
 

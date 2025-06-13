@@ -1,5 +1,15 @@
-CLASS zbp_i_orders_9160 DEFINITION PUBLIC ABSTRACT FINAL FOR BEHAVIOR OF z_i_orders_9160.
+class ZBP_I_ORDERS_9160 definition
+  public
+  abstract
+  final
+  create public .
+
+public section.
+protected section.
+private section.
 ENDCLASS.
 
-CLASS zbp_i_orders_9160 IMPLEMENTATION.
+
+
+CLASS ZBP_I_ORDERS_9160 IMPLEMENTATION.
 ENDCLASS.
