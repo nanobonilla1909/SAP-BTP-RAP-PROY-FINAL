@@ -21,7 +21,7 @@ etag master last_changed_at
   delete;
 
   // Validations
-   validation validateCountry on save { field country; }
+   validation validateCountry on save { create; field country; }
 
   // Actions
   action (features : instance) cancelOrder result[1] $self;
@@ -51,7 +51,7 @@ etag master last_changed_at
 
   // Validations
 
-  validation validateCountry on save { field release_date, discontinued_date; }
+  validation validateDates on save { field release_date, discontinued_date; }
 
   association _Order;
 
